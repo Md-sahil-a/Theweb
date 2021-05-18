@@ -1,0 +1,60 @@
+.dark {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background: url('../flasky/image/game.jpg');
+    position: relative;
+    background-size: cover;
+}
+
+.back .hyper {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.back h1 {
+    margin: 250px 0 0 30px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: chartreuse;
+}
+
+.back h2 {
+    color: rgb(124, 219, 28);
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.back .btn-get-started {
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    display: block;
+    padding: 14px 14px;
+    border-radius: 3px;
+    margin: 10px;
+    color: navajowhite;
+    text-decoration: none;
+}
+
+.back .btn-get-started:hover {
+    background: chartreuse;
+    color: white;
+}
